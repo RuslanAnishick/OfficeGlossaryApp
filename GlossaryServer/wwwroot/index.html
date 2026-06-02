@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Глоссарий офисного работника</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Глоссарий офисного работника</h1>
+        <p>Веб-интерфейс сетевого приложения</p>
+    </header>
+
+    <main>
+        <section class="search-block">
+            <input type="text" id="searchInput" placeholder="Введите термин для поиска...">
+            <button onclick="searchTerms()">Найти</button>
+            <button onclick="loadTerms()">Показать все</button>
+        </section>
+
+        <section id="termsContainer" class="terms-container"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GlossaryServer/GlossaryServer.csproj" />
+  <Project Path="GlossaryWinForms/GlossaryWinForms.csproj" />
+</Solution>
