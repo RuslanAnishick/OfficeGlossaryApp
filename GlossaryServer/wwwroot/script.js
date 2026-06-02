@@ -1,4 +1,4 @@
-﻿const apiUrl = "https://localhost:7011/api/Terms";
+﻿const apiUrl = "/api/Terms";
 
 async function loadTerms() {
     const response = await fetch(apiUrl);
